@@ -4,7 +4,7 @@ import styles from './App.module.scss'
 
 function App() {
   const [count, setCount] = useState(0)
-
+  console.log(styles)
   return (
     <div className={styles.App}>
       <header className={styles.AppHeader}>
